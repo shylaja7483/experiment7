@@ -12,7 +12,7 @@ ipeline {
         stage('Build & Execute Script') {
             steps {
                 echo 'Running test.py...'
-                bat 'python test.py'
+                bat 'python text.py'
             }
         }
 
